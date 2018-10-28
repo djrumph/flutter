@@ -8,8 +8,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return new MaterialApp(
       title:"myApp test",
-      home: new Text("hello"),
-      
+      home: new Center(
+        child: new Text("helloooooooo"),
+      )
     );
     
 }
