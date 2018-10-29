@@ -8,11 +8,20 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return new MaterialApp(
       title:"myApp test",
-      home: new Center(
-        child: new Text("helloooooooo"),
+      home: new Scaffold(
+        appBar: new AppBar(
+          title: new Text("App Bar Title"),
+        ),
+       body: new HomeWidget(),
       )
-    );
-    
+    );   
+  }
 }
 
+class HomeWidget extends StatelessWidget {
+  @override
+  Widget build(BuildContext context){
+    return new Text("test");
+  }
 }
+
