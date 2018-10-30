@@ -18,6 +18,7 @@ class MyApp extends StatelessWidget {
   }
 }
 
+//something is wrong with emulator, will check later
 class HomeWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context){
