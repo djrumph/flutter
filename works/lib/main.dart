@@ -22,7 +22,10 @@ class MyApp extends StatelessWidget {
 class HomeWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context){
-    return new Text("test");
+    return new Center(
+      child: new Text("test", 
+        style: new TextStyle(fontSize: 24.0),),
+    );
   }
 }
 
