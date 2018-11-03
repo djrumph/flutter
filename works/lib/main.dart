@@ -22,10 +22,18 @@ class MyApp extends StatelessWidget {
 class HomeWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context){
-    return new Center(
-      child: new Text("test", 
-        style: new TextStyle(fontSize: 24.0),),
+    return new ListView.builder(
+      itemCount:20,
+      itemBuilder: (context, rowNumber){
+          return new Text("Row");
+      },
+
     );
+
+    // return new Center(
+    //   child: new Text("test", 
+    //     style: new TextStyle(fontSize: 24.0),),
+    // );
   }
 }
 
