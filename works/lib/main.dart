@@ -25,7 +25,7 @@ class HomeWidget extends StatelessWidget {
     return new ListView.builder(
       itemCount:20,
       itemBuilder: (context, rowNumber){
-          return new Text("Row");
+          return new Text("Row a test");
       },
 
     );
